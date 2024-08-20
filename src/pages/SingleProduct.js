@@ -26,7 +26,7 @@ const SingleProduct = () => {
           Back
         </button>
         <div className="flex">
-          <img src={product.image} alt="pizza" />
+          <img className="w-1/6" src={product.image} alt="pizza" />
           <div className="ml-16">
             <h1 className="text-xl font-bold">{product.name}</h1>
             <div className="text-md">{product.size}</div>
